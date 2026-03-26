@@ -21,19 +21,19 @@
 ## 项目结构
 
 ```
-├── backend/          # 后端 FastAPI 项目
+├── backend/          后端 FastAPI 项目
 │   ├── app/
-│   │   ├── api/      # API 路由
-│   │   ├── core/     # 核心配置
-│   │   ├── models/   # 数据库模型
-│   │   ├── schemas/  # Pydantic 模型
-│   │   ├── services/ # 业务逻辑
-│   │   └── repositories/  # 数据访问
-│   ├── alembic/      # 数据库迁移
-│   └── tests/        # 测试
-├── frontend/         # 前端 Vue 项目
+│   │   ├── api/      API 路由
+│   │   ├── core/     核心配置
+│   │   ├── models/   数据库模型
+│   │   ├── schemas/  Pydantic 模型
+│   │   ├── services/ 业务逻辑
+│   │   └── repositories/  数据访问
+│   ├── alembic/       数据库迁移
+│   └── tests/         测试
+├── frontend/          前端 Vue 项目
 │   ├── src/
-│   │   ├── api/      # API 调用
+│   │   ├── api/       API 调用
 │   │   ├── components/
 │   │   ├── layouts/
 │   │   ├── router/
@@ -46,9 +46,9 @@
 └── mobile/           # uni-app 移动端 (待开发)
 ```
 
-## 快速开始
+ 快速开始
 
-### 一键启动（推荐）
+一键启动（推荐）
 
 双击运行项目根目录下的 `start-all.bat`，会自动：
 1. 创建数据库（如不存在）
@@ -58,16 +58,16 @@
 
 停止服务：运行 `stop-all.bat`
 
-### 数据库配置
+数据库配置
 
 默认配置（可在 `backend/.env` 中修改）：
 - 数据库: `medicine_admin`
 - 用户名: `root`
 - 密码: `123456`
 
-### 手动启动
+ 手动启动
 
-#### 后端
+后端
 
 1. 创建 MySQL 数据库
 ```sql
@@ -102,7 +102,7 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 API 文档: http://localhost:8000/docs
 
-#### 前端
+ 前端
 
 1. 安装依赖
 ```bash
@@ -111,15 +111,14 @@ npm install
 ```
 
 2. 启动开发服务器
-```bash
+bash
 npm run dev
-```
+
 
 或直接运行 `frontend/start.bat`
 
 访问: http://localhost:5173
-
-## 功能模块
+ 功能模块
 
 - ✅ 用户认证与授权 (JWT + 角色权限)
 - ✅ 数据总览看板
@@ -129,14 +128,12 @@ npm run dev
 - ✅ 预警管理
 - ✅ 报表中心
 - ✅ 系统管理
-
-## 用户角色
+用户角色
 
 - **管理员 (admin)**: 所有权限
 - **药品管理员 (manager)**: 药品管理、库存管理、报表查看
 - **操作员 (operator)**: 入库出库操作、查看权限
-
-## 默认账号
+ 默认账号
 
 初始化数据库后，系统会创建默认管理员账号：
 
