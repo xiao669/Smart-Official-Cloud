@@ -12,7 +12,7 @@ class DeepSeekAIService:
     def __init__(self):
         # DeepSeek API配置
         # 访问：https://platform.deepseek.com/
-        self.api_key = "sk-d642998f183f482b915bbe663d9b52c8"  # 替换为实际的API Key
+        self.api_key = ""  # 替换为实际的API Key
         self.api_url = "https://api.deepseek.com/v1/chat/completions"
         self.model = "deepseek-chat"
         
