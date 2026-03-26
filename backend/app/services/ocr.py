@@ -17,8 +17,8 @@ class OCRService:
         # 百度OCR API配置（需要在百度云申请）
         # 访问：https://cloud.baidu.com/product/ocr
         # TODO: 请在下方填入你的百度OCR API密钥
-        self.api_key = "2s4tX9kza7K17mB1s7enCwJu"  # 替换为实际的API Key
-        self.secret_key = "o2dLzEF12fo7uSMEpTyxzmb7J2txnLny"  # 替换为实际的Secret Key
+        self.api_key = ""  # 替换为实际的API Key
+        self.secret_key = ""  # 替换为实际的Secret Key
         self.access_token = None
         
         # 开发模式标志（当API Key未配置时自动使用模拟数据）
