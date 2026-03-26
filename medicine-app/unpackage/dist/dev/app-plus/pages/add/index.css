@@ -1,0 +1,380 @@
+/**
+ * uni-app 全局样式变量
+ */
+/* 主题色 - 青蓝色 */
+/* 颜色变量 */
+/* 文字颜色 */
+/* 背景色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 圆角 */
+/* 字体大小 */
+.add-page[data-v-89f6901d] {
+  min-height: 100vh;
+  background-color: #F5F7FA;
+  padding-bottom: 3.75rem;
+}
+.ai-section[data-v-89f6901d] {
+  padding: 0.75rem;
+  text-align: center;
+}
+.ai-btn[data-v-89f6901d] {
+  width: 100%;
+  height: 3.75rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+  background: linear-gradient(135deg, #0e7490 0%, #14b8a6 100%);
+  box-shadow: 0 0.25rem 0.75rem rgba(14, 116, 144, 0.4);
+}
+.ai-btn[data-v-89f6901d]::after {
+  border: none;
+}
+.ai-icon[data-v-89f6901d] {
+  font-size: 1.25rem;
+}
+.ai-text[data-v-89f6901d] {
+  font-size: 0.875rem;
+}
+.ai-tip[data-v-89f6901d] {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #909399;
+  line-height: 1.5;
+}
+.form-container[data-v-89f6901d] {
+  background: #FFFFFF;
+  margin: 0.75rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+.form-item[data-v-89f6901d] {
+  margin-bottom: 1rem;
+}
+.form-item[data-v-89f6901d]:last-child {
+  margin-bottom: 0;
+}
+.form-label[data-v-89f6901d] {
+  font-size: 0.875rem;
+  color: #303133;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.form-label.required[data-v-89f6901d]::before {
+  content: "*";
+  color: #F56C6C;
+  margin-right: 0.125rem;
+}
+.form-tip[data-v-89f6901d] {
+  display: block;
+  font-size: 0.75rem;
+  color: #909399;
+  margin-top: 0.25rem;
+  line-height: 1.5;
+}
+.medicine-input-group[data-v-89f6901d] {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.medicine-name-input[data-v-89f6901d] {
+  flex: 1;
+}
+.barcode-input-group[data-v-89f6901d] {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.barcode-input[data-v-89f6901d] {
+  flex: 1;
+}
+.scan-btn[data-v-89f6901d] {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(135deg, #52C41A 0%, #389E0D 100%);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+}
+.scan-btn[data-v-89f6901d]::after {
+  border: none;
+}
+.scan-icon[data-v-89f6901d] {
+  font-size: 1rem;
+}
+.select-btn[data-v-89f6901d] {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(135deg, #0e7490 0%, #14b8a6 100%);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+}
+.select-btn[data-v-89f6901d]::after {
+  border: none;
+}
+.select-icon[data-v-89f6901d] {
+  font-size: 1rem;
+}
+.date-input-group[data-v-89f6901d] {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.date-input[data-v-89f6901d] {
+  flex: 1;
+}
+.date-picker-btn[data-v-89f6901d] {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: linear-gradient(135deg, #0e7490 0%, #14b8a6 100%);
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+}
+.date-picker-btn[data-v-89f6901d]::after {
+  border: none;
+}
+.picker-icon[data-v-89f6901d] {
+  font-size: 1rem;
+}
+.form-input[data-v-89f6901d] {
+  height: 2.5rem;
+  background: #F5F7FA;
+  border-radius: 0.25rem;
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+  color: #303133;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-input .placeholder[data-v-89f6901d] {
+  color: #C0C4CC;
+}
+.form-input .arrow[data-v-89f6901d] {
+  font-size: 1.25rem;
+  color: #C0C4CC;
+}
+uni-input.form-input[data-v-89f6901d] {
+  display: block;
+}
+.picker-input[data-v-89f6901d] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.picker-input .placeholder[data-v-89f6901d] {
+  color: #C0C4CC;
+}
+.picker-input .arrow[data-v-89f6901d] {
+  font-size: 1.125rem;
+  color: #C0C4CC;
+}
+.form-textarea[data-v-89f6901d] {
+  width: 100%;
+  min-height: 5rem;
+  background: #F5F7FA;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: #303133;
+  line-height: 1.6;
+}
+.form-footer[data-v-89f6901d] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.75rem;
+  background: #FFFFFF;
+  box-shadow: 0 -0.0625rem 0.25rem rgba(0, 0, 0, 0.06);
+}
+.submit-btn[data-v-89f6901d] {
+  width: 100%;
+  height: 2.75rem;
+  background: linear-gradient(135deg, #0e7490 0%, #14b8a6 100%);
+  color: #FFFFFF;
+  border-radius: 1.375rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+}
+.submit-btn[data-v-89f6901d]::after {
+  border: none;
+}
+.picker-popup[data-v-89f6901d] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  z-index: 999;
+}
+.picker-content[data-v-89f6901d] {
+  width: 100%;
+  height: 80vh;
+  background: #FFFFFF;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.date-picker-content[data-v-89f6901d] {
+  height: 60vh;
+}
+.simple-picker-content[data-v-89f6901d] {
+  height: 50vh;
+}
+.simple-picker-item[data-v-89f6901d] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 0.75rem;
+  background: #F5F7FA;
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9375rem;
+  color: #303133;
+}
+.simple-picker-item.active[data-v-89f6901d] {
+  background: linear-gradient(135deg, rgba(14, 116, 144, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+  border: 0.0625rem solid #0e7490;
+  color: #0e7490;
+  font-weight: 600;
+}
+.picker-header[data-v-89f6901d] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.75rem;
+  border-bottom: 0.03125rem solid #EBEEF5;
+}
+.picker-title[data-v-89f6901d] {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #303133;
+}
+.picker-close[data-v-89f6901d] {
+  font-size: 1.25rem;
+  color: #909399;
+}
+.picker-search[data-v-89f6901d] {
+  padding: 0.75rem;
+  border-bottom: 0.03125rem solid #EBEEF5;
+}
+.search-input[data-v-89f6901d] {
+  height: 2.25rem;
+  background: #F5F7FA;
+  border-radius: 1.125rem;
+  padding: 0 1rem;
+  font-size: 0.875rem;
+}
+.picker-list[data-v-89f6901d] {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+}
+.picker-item[data-v-89f6901d] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: #F5F7FA;
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+.picker-item.active[data-v-89f6901d] {
+  background: #E3F2FD;
+  border: 0.0625rem solid #409EFF;
+}
+.medicine-info[data-v-89f6901d] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.medicine-name[data-v-89f6901d] {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #303133;
+}
+.medicine-spec[data-v-89f6901d] {
+  font-size: 0.75rem;
+  color: #909399;
+}
+.check-icon[data-v-89f6901d] {
+  font-size: 1.25rem;
+  color: #409EFF;
+  font-weight: bold;
+}
+.empty-state[data-v-89f6901d] {
+  padding: 3.125rem 0;
+  text-align: center;
+  color: #909399;
+  font-size: 0.875rem;
+}
+.date-picker-body[data-v-89f6901d] {
+  flex: 1;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.date-picker-view[data-v-89f6901d] {
+  width: 100%;
+  height: 12.5rem;
+}
+.date-picker-item[data-v-89f6901d] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  font-size: 1rem;
+  color: #303133;
+  text-align: center;
+}
+.picker-footer[data-v-89f6901d] {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-top: 0.03125rem solid #EBEEF5;
+}
+.picker-cancel-btn[data-v-89f6901d],
+.picker-confirm-btn[data-v-89f6901d] {
+  flex: 1;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+}
+.picker-cancel-btn[data-v-89f6901d]::after,
+.picker-confirm-btn[data-v-89f6901d]::after {
+  border: none;
+}
+.picker-cancel-btn[data-v-89f6901d] {
+  background: #F5F7FA;
+  color: #606266;
+}
+.picker-confirm-btn[data-v-89f6901d] {
+  background: linear-gradient(135deg, #0e7490 0%, #14b8a6 100%);
+  color: #FFFFFF;
+}

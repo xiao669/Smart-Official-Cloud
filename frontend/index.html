@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%; overflow: hidden;">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>智管云</title>
+    
+    <!-- 安全相关Meta标签 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' http://localhost:* http://192.168.*:* ws://localhost:* ws://192.168.*:*;" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    
+    <!-- 禁止搜索引擎索引（内部系统） -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+    
+    <!-- 早期安全脚本 - 在Vue加载前执行 -->
+    <script>
+      // 生产环境检测
+      (function() {
+        'use strict';
+        
+        // 禁用右键菜单
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+          return false;
+        });
+        
+        // 禁用开发者工具快捷键
+        document.addEventListener('keydown', function(e) {
+          // F12
+          if (e.keyCode === 123) {
+            e.preventDefault();
+            return false;
+          }
+          // Ctrl+Shift+I
+          if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+            e.preventDefault();
+            return false;
+          }
+          // Ctrl+Shift+J
+          if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+            e.preventDefault();
+            return false;
+          }
+          // Ctrl+Shift+C
+          if (e.ctrlKey && e.shiftKey && e.keyCode === 67) {
+            e.preventDefault();
+            return false;
+          }
+          // Ctrl+U
+          if (e.ctrlKey && e.keyCode === 85) {
+            e.preventDefault();
+            return false;
+          }
+        });
+        
+        // 清除控制台
+        if (typeof console.clear === 'function') {
+          console.clear();
+        }
+        
+        // 控制台警告
+        console.log('%c⚠️ 警告', 'color: red; font-size: 40px; font-weight: bold;');
+        console.log('%c此浏览器功能仅供开发人员使用。', 'color: red; font-size: 16px;');
+        console.log('%c如果有人告诉您在此处复制粘贴某些内容，这是一种欺诈行为。', 'color: red; font-size: 16px;');
+      })();
+    </script>
+    
+    <style>
+      /* 禁止选择文本（可选） */
+      /* body { user-select: none; -webkit-user-select: none; } */
+      
+      /* 隐藏滚动条中的敏感信息 */
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: #f1f1f1; }
+      ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; height: 100%; overflow: hidden;">
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+        <h1>⚠️ 需要启用JavaScript</h1>
+        <p>此应用程序需要JavaScript才能运行。请在浏览器设置中启用JavaScript。</p>
+      </div>
+    </noscript>
+    <div id="app" style="height: 100%; overflow: hidden;"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+{
+  "pages": [
+    {
+      "path": "pages/splash/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#34c9eb",
+        "app-plus": {
+          "titleNView": false,
+          "bounce": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/select-mode/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#34c9eb",
+        "app-plus": {
+          "titleNView": false,
+          "bounce": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "light"
+      }
+    },
+    {
+      "path": "pages/medicine/list",
+      "style": {
+        "navigationBarTitleText": "药品列表",
+        "navigationBarBackgroundColor": "#0e7490",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "light"
+      }
+    },
+    {
+      "path": "pages/medicine/detail",
+      "style": {
+        "navigationBarTitleText": "药品详情",
+        "navigationBarBackgroundColor": "#0e7490",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/medicine/edit",
+      "style": {
+        "navigationBarTitleText": "修改库存信息",
+        "navigationBarBackgroundColor": "#0e7490",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/add/index",
+      "style": {
+        "navigationBarTitleText": "添加药品入库",
+        "navigationBarBackgroundColor": "#52C41A",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/outbound/index",
+      "style": {
+        "navigationBarTitleText": "药品出库",
+        "navigationBarBackgroundColor": "#FF6B6B",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/warning/index",
+      "style": {
+        "navigationBarTitleText": "预警管理",
+        "navigationBarBackgroundColor": "#0e7490",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "light"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationBarBackgroundColor": "#0e7490",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "智管云",
+    "navigationBarBackgroundColor": "#0e7490",
+    "backgroundColor": "#F5F7FA",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#8A8A8A",
+    "selectedColor": "#0e7490",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "height": "56px",
+    "fontSize": "11px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/medicine/list",
+        "text": "药品",
+        "iconPath": "static/tabbar/medicine.png",
+        "selectedIconPath": "static/tabbar/medicine-active.png"
+      },
+      {
+        "pagePath": "pages/warning/index",
+        "text": "预警",
+        "iconPath": "static/tabbar/warning.png",
+        "selectedIconPath": "static/tabbar/warning-active.png"
+      },
+      {
+        "pagePath": "pages/settings/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user-active.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+/**
+ * uni-app 全局样式变量
+ */
+
+/* 主题色 - 青蓝色 */
+$uni-primary: #32c8eb;
+$uni-primary-dark: #1ab5d8;
+$uni-primary-light: #5dd5f0;
+
+/* 颜色变量 */
+$uni-success: #67C23A;
+$uni-warning: #E6A23C;
+$uni-error: #F56C6C;
+$uni-info: #909399;
+
+/* 文字颜色 */
+$uni-text-color: #303133;
+$uni-text-color-grey: #909399;
+
+/* 背景色 */
+$uni-bg-color: #F5F7FA;
+$uni-bg-color-grey: #F5F7FA;
+$uni-bg-color-hover: #F5F7FA;
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4);
+
+/* 边框颜色 */
+$uni-border-color: #DCDFE6;
+
+/* 尺寸变量 */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+$uni-spacing-col-sm: 5px;
+$uni-spacing-col-base: 10px;
+$uni-spacing-col-lg: 15px;
+
+/* 圆角 */
+$uni-border-radius-sm: 4px;
+$uni-border-radius-base: 6px;
+$uni-border-radius-lg: 12px;
+$uni-border-radius-circle: 50%;
+
+/* 字体大小 */
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16px;
